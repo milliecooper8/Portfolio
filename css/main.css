@@ -1,0 +1,181 @@
+/*------Tables of Contents
+1. Reset
+2. Universal Styles
+3. About
+4. Skills
+5. Experience
+6. Map
+7. Footer
+-------*/
+
+
+
+/*-----------------This is the Reset----------------------*/
+* {
+  margin:0;
+  padding:0;
+  box-sizing:0;
+}
+
+iframe{
+  pointer-events: none;
+}
+
+img{
+  max-width: 100%;
+}
+
+/*----Universal styles----*/
+body {
+  font-family: 'Cormorant Garamond', serif;
+  color: #2c3e50;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Lato', sans-serif;;
+}
+
+p {
+  font-family: 'Lato', sans-serif;
+  color: grey;
+  line-height: 24px;
+}
+
+section, footer {
+  padding: 10vh 9vw;
+}
+
+.no-padding {
+  padding: 0;
+}
+
+.featured {
+  background-color: #eaebe8;
+}
+
+.centered {
+  text-align: center;
+}
+
+.whitebox {
+  background-color: #eaebe8;
+  padding: 5%;
+  margin: 0% auto;
+  max-width: 50%;
+}
+
+h1 {
+  font-size: 5rem;
+  font-family: 'Rammetto One', cursive;
+}
+
+h2 {
+  font-size: 2rem;
+  font-family: 'Nixie One', cursive;
+  text-align: center;
+}
+
+h3 {
+  font-family: 'Nixie One', cursive;
+}
+
+a {
+  color: #010138;
+  text-decoration: none;
+}
+
+a:hover {
+  color: white;
+}
+
+.padding-indent {
+  padding:5% 10% 5% 10%;
+}
+
+
+/*----Header-------*/
+.top-banner {
+  min-height: 100vh;
+  background-image: url(../images/giphy.gif);
+  background-position: left;
+  background-repeat: no-repeat;
+  background-color: #00feb0;
+  background-size: 50%;
+  background-attachment: fixed;
+  padding-left: 50vw;
+  padding-top: 5vh;
+  color: #010138;
+}
+
+.top-banner h1 {
+  margin-top: 13%;
+}
+
+.top-banner h3 {
+  margin-top: 3%;
+}
+
+nav a {
+  margin: 5px 20px;
+  font-family: 'Nixie One', cursive;
+  font-size:15px;
+}
+
+nav {
+  display: inline-flex;
+}
+
+.logo {
+  width: 100px;
+}
+
+
+/*----About-------*/
+.featured h2 {
+  font-family: 'Rammetto One', cursive;
+}
+
+.featured p {
+  line-height: 25px;
+    margin-top: 3%;
+}
+
+
+
+
+/*----Skills-------*/
+.skills-box {
+  padding-right: 4%;
+  padding-bottom: 3%;
+}
+
+
+/*----Experience-------*/
+.featurealternate h2 {
+  font-family: 'Rammetto One', cursive;
+  background-color: white;
+}
+
+
+
+/*----Map-------*/
+
+
+
+
+
+/*----Footer-------*/
+.footer {
+  text-align: center;
+  font-family:'Nixie One', cursive;
+  font-size: 15px;
+}
+
+.footer a {
+  margin-bottom: 1%;
+  display: inline-block;
+}
+
+.footer h2 {
+  margin-bottom: 0.8%;
+}
